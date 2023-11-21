@@ -89,6 +89,6 @@ and find the next title that contains fantasy, and the closest average rating ne
 ## UML DIAGRAM
 ***
 
-[IML Diagram](/images/uml.png)
+![ALT](/images/uml.png)
 
 ***
