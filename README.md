@@ -77,10 +77,11 @@ data = {
 <br>
 What will happen is that in the .csv file, there is no matching title with the constraints <br>
 What happens next is that the microservice will take the constraints <br>
-```
+<br>
 genre: fantasy
+<br>
 averageRating 7
-```
+<br>
 <br>
 and find the next title that contains fantasy, and the closest average rating next, which would be 7.1 
 ***
