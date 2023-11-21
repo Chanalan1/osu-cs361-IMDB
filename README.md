@@ -89,6 +89,6 @@ and find the next title that contains fantasy, and the closest average rating ne
 ## UML DIAGRAM
 ***
 
-
+!C:\Users\alanc\osu-cs361-IMDB\uml.png
 
 ***
