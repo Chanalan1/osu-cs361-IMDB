@@ -83,7 +83,7 @@ genre: fantasy
 averageRating 7
 <br>
 <br>
-and find the next title that contains fantasy, and the closest average rating next, which would be 7.1 <br?
+and find the next title that contains fantasy, and the closest average rating next, which would be 7.1 <br>
 ***
 
 ## UML DIAGRAM
