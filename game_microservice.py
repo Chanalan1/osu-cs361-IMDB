@@ -59,7 +59,7 @@ def get_random_game(dataset, constraints):
     # game using averagerating that fits it
     # ex search : genre horror, averagerating 7.0
     # suggested return: genre horror, averagerating 7.1, title: xxxxxx zombies xxxxxx
-    # the return makes sure that the genre and rating are similar
+    # the return makes sure that the genre and rating are similar by taking account same genre, then next closest rating 
     if filtered_dataset.empty:
         closest_game = None
         min_rating_diff = float('inf')  # Initialize with a large number
