@@ -30,14 +30,14 @@ No set up needed. Data is taken from imbd.csv file
 ### To start the microservice
 
 You need to start the microservice using zmq by doing typing into the terminal <br>
-'''
+```
 python game_microservice.py 5556 # port number
-'''
+```
 <br>
 
 ### Once started
 On your main.py program, you will send a Json with the constraints <br>
-'''
+```
 data = {
     'genres': "xxxx",
     'startYear': "xxxx",
@@ -45,7 +45,7 @@ data = {
     'numVotes': x,
     'isAdult': x
 }
-'''
+```
 <br>
 Similar to the example and the microservice will be running on a loop until it gets a request
 <br>
@@ -54,9 +54,9 @@ Similar to the example and the microservice will be running on a loop until it g
 When the microservice takes the request, it will generate a response in the form of a JSON and send it back as a response. <br>
 For example, this could be a response when taking a request: <br>
 
-'''
+```
 Received reply: {'primaryTitle': 'Treasure Quest', 'genres': 'Adventure,Fantasy,Musical', 'startYear': '1996', 'averageRating': 7.0, 'numVotes': 17.0, 'isAdult': 0}
-'''
+```
 <br>
 ***
 
